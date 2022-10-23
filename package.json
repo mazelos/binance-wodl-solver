@@ -7,7 +7,6 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint '**/*.{js,ts,tsx}' --fix --cache",
-    "postinstall": "rm -f .husky/pre-commit && husky install && husky add .husky/pre-commit 'yarn lint'",
     "script:convert": "tsc scripts/convertGLossary.ts --outdir build/ --resolveJsonModule --esModuleInterop && node build/scripts/convertGLossary",
     "script:add": "tsc scripts/addNewWords.ts --outdir build/ --resolveJsonModule --esModuleInterop --downlevelIteration && node build/scripts/addNewWords"
   },
