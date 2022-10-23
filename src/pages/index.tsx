@@ -3,6 +3,10 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import { useQuery } from 'react-query';
 import axios from 'axios';
+// import Image from 'next/image';
+// import BinanceLogo from '@assets/binance.png';
+import SizeSelector from '@components/sizeSelection';
+import WordsList from '@components/wordList';
 
 const fetchWords = async (
   count: number,
@@ -19,13 +23,13 @@ const fetchWords = async (
 };
 
 const Home: NextPage = () => {
-  const [count, setCount] = useState<number>(5);
-  const [validLetters, setValidLetters] = useState<string>('');
-  const [badLetters, setBadLetters] = useState<string>('');
-  const [convertWords, setConvertWords] = useState<boolean>(false);
-  const [newWords, setNewWords] = useState<string>('');
+  const [count, setCount] = useState(5);
+  const [validLetters, setValidLetters] = useState('');
+  const [badLetters, setBadLetters] = useState('');
+  const [convertWords, setConvertWords] = useState(false);
+  const [submitFired, setSubmitFired] = useState(false);
+  // const [newWords, setNewWords] = useState('');
   // const [words, setWords] = useState<string[]>([]);
-  const [submitFired, setSubmitFired] = useState<boolean>(false);
 
   const { data: words, refetch: refetchWords } = useQuery(
     ['get-words', count, validLetters, badLetters, convertWords],
@@ -42,12 +46,14 @@ const Home: NextPage = () => {
     refetchWords();
   };
 
+  const handleCountChange = (value: number) => {
+    setCount(value || 0);
+    setValidLetters(l => (value ? l.slice(0, value) : ''));
+  };
+
   const handleChange = (e: FormEvent<HTMLInputElement>) => {
     const { name, value } = e.currentTarget;
     switch (name) {
-      case 'word-count':
-        setCount(Number(value) || 0);
-        break;
       case 'valid-letters':
         setValidLetters(value ? value.toLowerCase() : '');
         break;
@@ -57,77 +63,98 @@ const Home: NextPage = () => {
       case 'convert-words':
         setConvertWords(currVal => !currVal);
         break;
-      case 'new-words':
-        setNewWords(value || '');
-        break;
+      // case 'new-words':
+      //   setNewWords(value || '');
+      //   break;
       default:
         break;
     }
   };
 
   return (
-    <div>
+    <>
       <Head>
         <title>Wodl Solver</title>
         <meta name="description" content="Wodl solver" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1 className="text-xl">WODL SOLVER</h1>
-      <p>Search potential crypto words to solve WODL</p>
-      <form onSubmit={handleSubmit}>
-        <label id="word-count">Select the word length </label>
-        <input
-          type="range"
-          id="word-count"
-          name="word-count"
-          min="2"
-          max="20"
-          placeholder="Enter word length"
-          value={count}
-          onChange={handleChange}
-        />
-        <label id="valid-letters">Type the valid letters </label>
-        <input
-          type="text"
-          id="valid-letters"
-          name="valid-letters"
-          placeholder="Enter valid letters"
-          value={validLetters}
-          onChange={handleChange}
-        />
-        <label id="bad-letters">Type the bad letters </label>
-        <input
-          type="text"
-          id="bad-letters"
-          name="bad-letters"
-          placeholder="Enter bad letters"
-          value={badLetters}
-          onChange={handleChange}
-        />
-        <label id="convert-words">Convert plurals to singular and vice versa? </label>
-        <input type="checkbox" id="convert-words" name="convert-words" onChange={handleChange} checked={convertWords} />
 
-        <button type="submit">{`Search ${count} letters words`}</button>
-      </form>
+      <div className="flex min-h-full items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+        <div className="w-full max-w-md space-y-8">
+          <div>
+            {/* <Image className="h-12 w-auto self-center" src={BinanceLogo} alt="Your Company" /> */}
+            <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">Wodl Solver</h2>
+            <p className="mt-2 text-center text-sm text-gray-600">Search potential crypto words to solve your WODL</p>
+          </div>
 
-      <h2>Words {words?.length || 0}</h2>
-      <ul>
-        {words?.map(w => (
-          <li key={w}>{w}</li>
-        ))}
-      </ul>
+          <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
+            <div className="">
+              <div className="mb-8">
+                <SizeSelector size={count} setSize={handleCountChange} />
+              </div>
 
-      {/* <form onSubmit={() => {}}>
-        <label id='new-words'>Add new words (separated by ,) </label>
-        <input
-          type="text"
-          id='new-words'
-          name="new-words"
-          onChange={handleChange}
-          value={newWords}
-        />
-      </form> */}
-    </div>
+              <div>
+                <label id="valid-letters" className="text-sm">
+                  Found letters ✔
+                </label>
+                <p></p>
+                <input
+                  type="text"
+                  id="valid-letters"
+                  name="valid-letters"
+                  placeholder="Enter found letters"
+                  value={validLetters}
+                  onChange={handleChange}
+                  className="mb-8 relative block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
+                />
+              </div>
+
+              <div>
+                <label id="bad-letters" className="text-sm">
+                  Invalid letters ✖
+                </label>
+                <input
+                  type="text"
+                  id="bad-letters"
+                  name="bad-letters"
+                  placeholder="Enter invalid letters"
+                  value={badLetters}
+                  onChange={handleChange}
+                  className="mb-8 relative block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
+                />
+              </div>
+            </div>
+
+            <div className="flex items-center justify-between">
+              <div className="flex items-center">
+                <input
+                  type="checkbox"
+                  id="convert-words"
+                  name="convert-words"
+                  onChange={handleChange}
+                  checked={convertWords}
+                  className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
+                />
+                <label htmlFor="remember-me" className="ml-2 block text-sm text-gray-900">
+                  Convert plurals to singular and vice versa?
+                </label>
+              </div>
+            </div>
+
+            <div>
+              <button
+                type="submit"
+                className="group relative flex w-full justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+              >{`Search ${count} character words`}</button>
+            </div>
+          </form>
+
+          <div className="mt-8">
+            <WordsList words={words} />
+          </div>
+        </div>
+      </div>
+    </>
   );
 };
 
