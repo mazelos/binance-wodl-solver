@@ -10,7 +10,7 @@ export default function WordsList({
   return (
     <div className="flex flex-col items-center mt-10">
       <h2 className="text-xl text-gray-800">Words {words?.length || 0}</h2>
-      <ul role="list" className="mt-3 grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-6 xl:grid-cols-8 sm:gap-6">
+      <ul role="list" className="mt-3 grid grid-cols-3 gap-5 sm:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 sm:gap-6">
         {words?.map(word => (
           <li key={word} className="col-span-1 flex rounded-md">
             <button
