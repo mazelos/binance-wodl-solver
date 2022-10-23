@@ -1,15 +1,25 @@
-export default function WordsList({ words }: { words: string[] | undefined }): JSX.Element {
+export default function WordsList({
+  words,
+  toggleShowCopiedNotification,
+}: {
+  words: string[] | undefined;
+  toggleShowCopiedNotification: (show: boolean) => void;
+}): JSX.Element {
   if (!words) return <></>;
 
   return (
     <div className="flex flex-col items-center mt-10">
       <h2 className="text-xl text-gray-800">Words {words?.length || 0}</h2>
-      <ul role="list" className="mt-3 grid grid-cols-2 gap-5 sm:grid-cols-4 sm:gap-6 lg:grid-cols-6 xl:grid-cols-8">
+      <ul role="list" className="mt-3 grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-6 xl:grid-cols-8 sm:gap-6">
         {words?.map(word => (
           <li key={word} className="col-span-1 flex rounded-md">
             <button
               type="button"
               className="inline-flex items-center rounded-md border border-gray-300 bg-white px-3 py-2 text-sm font-medium leading-4 text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+              onClick={() => {
+                navigator.clipboard.writeText(word);
+                toggleShowCopiedNotification(true);
+              }}
             >
               {word}
               <div className="ml-2 -mr-0.5">

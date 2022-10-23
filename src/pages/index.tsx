@@ -7,6 +7,7 @@ import Image from 'next/image';
 import BinanceLogo from '@assets/binance.png';
 import SizeSelector from '@components/sizeSelection';
 import WordsList from '@components/wordList';
+import Notification from '@components/notification';
 
 const fetchWords = async (
   count: number,
@@ -28,6 +29,7 @@ const Home: NextPage = () => {
   const [badLetters, setBadLetters] = useState('');
   const [convertWords, setConvertWords] = useState(false);
   const [submitFired, setSubmitFired] = useState(false);
+  const [showNotification, setShowNotification] = useState(false);
   // const [newWords, setNewWords] = useState('');
   // const [words, setWords] = useState<string[]>([]);
 
@@ -78,6 +80,7 @@ const Home: NextPage = () => {
         <meta name="description" content="Wodl solver" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Notification message="Wodl copied!" show={showNotification} setShow={setShowNotification} />
 
       <div className="flex flex-col min-h-full items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
         <div className="w-full max-w-md space-y-8">
@@ -150,7 +153,7 @@ const Home: NextPage = () => {
           </form>
         </div>
         <div className="mt-8">
-          <WordsList words={words} />
+          <WordsList words={words} toggleShowCopiedNotification={setShowNotification} />
         </div>
       </div>
     </>
