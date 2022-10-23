@@ -1,8 +1,10 @@
 export default function WordsList({ words }: { words: string[] | undefined }): JSX.Element {
+  if (!words) return <></>;
+
   return (
-    <div>
-      <h2 className="text-sm font-medium text-gray-500">Words {words?.length || 0}</h2>
-      <ul role="list" className="mt-3 grid grid-cols-2 gap-5 sm:grid-cols-4 sm:gap-6 lg:grid-cols-4">
+    <div className="flex flex-col items-center mt-10">
+      <h2 className="text-xl text-gray-800">Words {words?.length || 0}</h2>
+      <ul role="list" className="mt-3 grid grid-cols-2 gap-5 sm:grid-cols-4 sm:gap-6 lg:grid-cols-6 xl:grid-cols-8">
         {words?.map(word => (
           <li key={word} className="col-span-1 flex rounded-md">
             <button

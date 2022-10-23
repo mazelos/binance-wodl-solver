@@ -3,8 +3,8 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import { useQuery } from 'react-query';
 import axios from 'axios';
-// import Image from 'next/image';
-// import BinanceLogo from '@assets/binance.png';
+import Image from 'next/image';
+import BinanceLogo from '@assets/binance.png';
 import SizeSelector from '@components/sizeSelection';
 import WordsList from '@components/wordList';
 
@@ -79,12 +79,12 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="flex min-h-full items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+      <div className="flex flex-col min-h-full items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
         <div className="w-full max-w-md space-y-8">
-          <div>
-            {/* <Image className="h-12 w-auto self-center" src={BinanceLogo} alt="Your Company" /> */}
-            <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">Wodl Solver</h2>
-            <p className="mt-2 text-center text-sm text-gray-600">Search potential crypto words to solve your WODL</p>
+          <div className="flex flex-col items-center">
+            <Image className="h-12 w-auto" src={BinanceLogo} alt="Your Company" />
+            <h2 className="mt-6 text-3xl font-bold tracking-tight text-gray-900">Wodl Solver</h2>
+            <p className="mt-2 text-sm text-gray-600">Search potential crypto words to solve your WODL</p>
           </div>
 
           <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
@@ -148,10 +148,9 @@ const Home: NextPage = () => {
               >{`Search ${count} character words`}</button>
             </div>
           </form>
-
-          <div className="mt-8">
-            <WordsList words={words} />
-          </div>
+        </div>
+        <div className="mt-8">
+          <WordsList words={words} />
         </div>
       </div>
     </>
