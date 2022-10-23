@@ -19,6 +19,7 @@
       "@pages/*": ["interfaces/*"],
       "@components/*": ["components/*"],
       "@utils/*": ["utils/*"],
+      "@data/*": ["data/*"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

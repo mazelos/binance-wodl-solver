@@ -1,0 +1,2802 @@
+{
+    "#": [
+        {
+            "title": "51% Attack",
+            "slug": "51-percent-attack",
+            "excerpt": "Also known as a Majority Attack. When one or a group of miners control greater than 50% of the network's mining hashrate or computational power.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        }
+    ],
+    "a": [
+        {
+            "title": "Absolute Advantage",
+            "slug": "absolute-advantage",
+            "excerpt": "An economics concept in which one party has a direct advantage in efficiency in producing/providing a specific good or service over another party.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Active Management",
+            "slug": "active-management",
+            "excerpt": "An investing strategy employed by fund managers aiming to outperform an index or market in order to generate profits.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Ad Hoc",
+            "slug": "ad-hoc",
+            "excerpt": "A phrase of Latin origin that is used in modern English to mean 'for this purpose' or 'specifically for this.'",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Address",
+            "slug": "address",
+            "excerpt": "String of text that designates the location of a particular wallet on the blockchain. Often a hashed version of a public key.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Airdrop",
+            "slug": "airdrop",
+            "excerpt": "The distribution of digital assets to the public, either by virtue of holding a certain other token or simply by virtue of being an active wallet address on a particular blockchain",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Algorithm",
+            "slug": "algorithm",
+            "excerpt": "A sequence of unambiguous instructions used for the purpose of solving a problem.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "All or None Order AON",
+            "slug": "all-or-none-order",
+            "excerpt": "An order which once placed, must either be filled in its entirety or not at all. This prevents any partial filling of orders.",
+            "difficulty": {
+                "level": 3,
+                "label": "Advanced",
+                "slug": "advanced"
+            }
+        },
+        {
+            "title": "All-Time High ATH",
+            "slug": "all-time-high",
+            "excerpt": "The highest price of a cryptocurrency in a quote​ currency, such as a dollar, BTC, ETH, or BNB",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Allocation",
+            "slug": "allocation",
+            "excerpt": "An allotment of tokens or equity, that may be earned, purchased, or set aside for a certain investor, team, group, organization, or other related entity.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Alpha",
+            "slug": "alpha",
+            "excerpt": "The first look at a product released by a team, consisting of the very first version of a primitive, basic software or product.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Altcoin",
+            "slug": "altcoin",
+            "excerpt": "A cryptocurrency that is alternative to Bitcoin. Used to describe cryptocurrencies that are not Bitcoin.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Angel Investor",
+            "slug": "angel-investor",
+            "excerpt": "Wealthy investors that seek out opportunities to provide funding for entrepreneurs or start-up companies.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Anti Money Laundering AML",
+            "slug": "anti-money-laundering",
+            "excerpt": "A framework consisting of legal and regulatory procedures to minimize and curb the flow of funds that are generated from illegal or dubious activities.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Application Programming Interface API",
+            "slug": "application-programming-interface",
+            "excerpt": "A collection of functions and procedures that allow users to interact/communicate with the data of an application or service, such as an exchange, to execute the features of the service programmatically.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Application-Specific Integrated Circuit ASIC",
+            "slug": "application-specific-integrated-circuit",
+            "excerpt": "An Integrated Circuit customized for maximum performance in a particular use, rather than general-purpose use.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Arbitrage",
+            "slug": "arbitrage",
+            "excerpt": "Buying and selling of assets over different markets in order to take advantage of differing prices on the same asset.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "ASIC-resistant",
+            "slug": "asic-resistant",
+            "excerpt": "An ASIC-resistant cryptocurrency has its protocol and mining algorithm configured in such a way that using ASIC machines to mine the coin is either impossible or brings no significant benefit when compared to traditional GPU mining.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Ask Price",
+            "slug": "asking-price",
+            "excerpt": "The lowest price a seller is willing to accept on their sell order when trading an asset on an exchange.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Asset Management",
+            "slug": "asset-management",
+            "excerpt": "A system or method that helps individuals or companies manage assets. Either on behalf of their clients or their own.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Asynchronous",
+            "slug": "asynchronous",
+            "excerpt": "Events in electronic systems that do not happen at the same time or speed, or happen independent of the main program flow.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Atomic Swap",
+            "slug": "atomic-swap",
+            "excerpt": "Smart contract technology that enables the exchange of one cryptocurrency for another without using centralized intermediaries, such as exchanges.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Attack surface",
+            "slug": "attack-surface",
+            "excerpt": "Points in a software environment where an attacker can attempt to enter or extract data from the system.",
+            "difficulty": {
+                "level": 3,
+                "label": "Advanced",
+                "slug": "advanced"
+            }
+        },
+        {
+            "title": "Auction",
+            "slug": "auction",
+            "excerpt": "A live event where assets or services are negotiated through a bidding process, which is often led by an auctioneer.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        }
+    ],
+    "b": [
+        {
+            "title": "Bags",
+            "slug": "bags",
+            "excerpt": "The portfolio of coins and tokens one is holding. Often related to a poorly performing bag of assets that investors insist to hold.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Bear Market",
+            "slug": "bear-market",
+            "excerpt": "A negative trend in prices of a market. It is widely used not only in the cryptocurrency space but also in the traditional markets.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Benchmark",
+            "slug": "benchmark",
+            "excerpt": "A measurement standard which can be used to gauge the performance of a particular asset or investment portfolio.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "BEP-2",
+            "slug": "bep-2",
+            "excerpt": "A technical standard that defines a set of rules for the issuance and management of tokens in the Binance Chain ecosystem.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "BEP-20",
+            "slug": "bep-20",
+            "excerpt": "BEP-20 is a token standard on Binance Smart Chain that extends ERC-20, the most common Ethereum token standard. You can think of it as a blueprint for tokens that defines how they can be spent, who can spend them, and other rules for their usage. Due to its similarity to Binance Chain’s BEP-2 and Ethereum’s ERC-20, it’s compatible with both.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "BEP-721",
+            "slug": "bep-721",
+            "excerpt": "A technical standard that defines a set of rules for the issuance of NFTs in the Binance Smart Chain ecosystem.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "BEP-95",
+            "slug": "bep-95",
+            "excerpt": "BEP-95 is a Binance Evolution Proposal that introduces a real-time burning mechanism to Binance Smart Chain. ",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Beta Coefficient",
+            "slug": "beta-coefficient",
+            "excerpt": "A tool used to measure the volatility of an asset in comparison to the volatility of a specific portfolio or market index.",
+            "difficulty": {
+                "level": 3,
+                "label": "Advanced",
+                "slug": "advanced"
+            }
+        },
+        {
+            "title": "Beta Release",
+            "slug": "beta-release",
+            "excerpt": "An early version of a program for users to test and for a team to get feedback. Beta stage comes after the Alpha stage.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Bid Price",
+            "slug": "bid-price",
+            "excerpt": "In the context of financial markets, it is the value buyers offer for an asset, such as a commodity, security, or cryptocurrency.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Bid-Ask Spread",
+            "slug": "bid-ask-spread",
+            "excerpt": "The difference in price between the lowest asking price and highest bid price on the order book for an asset",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Binance Blockchain Charity Foundation BCF",
+            "slug": "binance-blockchain-charity-foundation",
+            "excerpt": "The world's first decentralized charity platform to advocate the concept of 'blockchain for social good'.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Binance Community Vote",
+            "slug": "binance-community-vote",
+            "excerpt": "When the community has the opportunity to vote for their favorite project to win a free listing on Binance.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Binance Ecosystem Fund BEF",
+            "slug": "binance-ecosystem-fund",
+            "excerpt": "An initiative by Binance to collaborate with partners who care about the blockchain/cryptocurrency ecosystem.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Binance Labs",
+            "slug": "binance-labs",
+            "excerpt": "A social impact fund and an initiative to incubate, invest, and empower blockchain and cryptocurrency entrepreneurs, projects, and communities.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Bitcoin",
+            "slug": "bitcoin",
+            "excerpt": "A cryptocurrency created by the pseudonymous developers Satoshi Nakamoto. The first cryptocurrency, initially described as a 'Peer-to-Peer e-cash'.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Bitcoin Core",
+            "slug": "bitcoin-core",
+            "excerpt": "Leading implementation of the software that enables users to interact with the Bitcoin network. Initially released by Satoshi.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Bitcoin Dominance",
+            "slug": "bitcoin-dominance",
+            "excerpt": "The ratio of Bitcoin's market capitalization versus the sum of the market capitalizations of all cryptocurrencies.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Bitcoin Pizza",
+            "slug": "bitcoin-pizza",
+            "excerpt": "The first known transaction where Bitcoin was exchanged for a physical good. Laszlo Hanyecz paid 10,000 BTC for two pizzas.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Black Swan Event",
+            "slug": "black-swan-event",
+            "excerpt": "An event that is often entirely unexpected and deviates from the expected result causing widespread ramifications.",
+            "difficulty": {
+                "level": 3,
+                "label": "Advanced",
+                "slug": "advanced"
+            }
+        },
+        {
+            "title": "Block",
+            "slug": "block",
+            "excerpt": "A computer file that stores transaction data. These can then be arranged in a linear sequence, which will form a blockchain.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Block Explorer",
+            "slug": "block-explorer",
+            "excerpt": "An online Blockchain webpage which allows users to browse information about blocks, transactions, balances, and transaction histories.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Block header",
+            "slug": "block-header",
+            "excerpt": "A section in a block containing metadata and a summary of the block's transactions. This is the information hashed when mining.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Block Height",
+            "slug": "block-height",
+            "excerpt": "The number of blocks in the chain between itself and the first block on that blockchain genesis block or block 0.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Block Reward",
+            "slug": "block-reward",
+            "excerpt": "The sum of coins awarded by the blockchain protocol to cryptocurrency miners for each successfully mined and validated block.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Blockchain",
+            "slug": "blockchain",
+            "excerpt": "A decentralized, digitized ledger that records transaction information about a cryptocurrency in a chronological order.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Bloom Filter",
+            "slug": "bloom-filter",
+            "excerpt": "A data structure that can be used to inform the user whether a particular item is part of a set",
+            "difficulty": {
+                "level": 3,
+                "label": "Advanced",
+                "slug": "advanced"
+            }
+        },
+        {
+            "title": "BNB",
+            "slug": "bnb",
+            "excerpt": "Launched by Binance after an initial coin offering that ended on July 3rd, 2017. Used for receiving exchange trading fee discounts among other utilities.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Bollinger Bands",
+            "slug": "bollinger-bands",
+            "excerpt": "A technical analysis indicator that measures market volatility. It's made of two sidelong bands and a simple moving average.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Bounty",
+            "slug": "bounty",
+            "excerpt": "A reward posted by a group or individual to incentivize certain work, behavior such as referrals, or development.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Break-Even Point BEP",
+            "slug": "break-even-point",
+            "excerpt": "The point where the total costs of an operation is equivalent to its current value or revenue.",
+            "difficulty": {
+                "level": 3,
+                "label": "Advanced",
+                "slug": "advanced"
+            }
+        },
+        {
+            "title": "Breakeven Multiple",
+            "slug": "breakeven-multiple",
+            "excerpt": "The multiple of the current price by which an asset needs to appreciate in order to reach its previous all-time high.",
+            "difficulty": {
+                "level": 3,
+                "label": "Advanced",
+                "slug": "advanced"
+            }
+        },
+        {
+            "title": "Breakout",
+            "slug": "breakout",
+            "excerpt": "When the price of an asset moves outside of a defined range or pattern, typically by breaking out of a support or resistance area. ",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "BUIDL",
+            "slug": "buidl",
+            "excerpt": "Originally derived from HODL, a term referring to keeping your heads down and focusing on building your product.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Bull Market",
+            "slug": "bull-market",
+            "excerpt": "A positive trend in prices of a market. It is widely used not only in the cryptocurrency space but also in the traditional markets.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Buy Wall",
+            "slug": "buy-wall",
+            "excerpt": "A single huge buy order or the composition of multiple large buy orders at the same price in the order book of a particular market.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        }
+    ],
+    "c": [
+        {
+            "title": "Candidate Block",
+            "slug": "candidate-block",
+            "excerpt": "A temporary block created by a mining node miner to add to the blockchain to receive the block rewards.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Candlestick",
+            "slug": "candlestick",
+            "excerpt": "A graph representation of price action that displays the open, close, high, and low points within a certain period.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Capitulation",
+            "slug": "capitulation",
+            "excerpt": "A period of strong selling activity, where investors give up their positions and sell their holdings as quickly as possible.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Censorship-resistance",
+            "slug": "censorship-resistance",
+            "excerpt": "The property of a cryptocurrency network that prevents any entity from altering transactions on it.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Central Bank",
+            "slug": "central-bank",
+            "excerpt": "A financial institution that acts as a monetary authority and manages a states currency, interest rates, and money supply.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Central Processing Unit CPU",
+            "slug": "central-processing-unit",
+            "excerpt": "The part of a computer responsible for interpreting instructions of computer programs and executing operations.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Centralized",
+            "slug": "centralized",
+            "excerpt": "When the planning and decision-making mechanisms are concentrated in a particular point within a system.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Cipher",
+            "slug": "cipher",
+            "excerpt": "A method for encrypting and decrypting messages. These can be divided into symmetric or asymmetric, according to their key model.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Circulating Supply",
+            "slug": "circulating-supply",
+            "excerpt": "The best approximate number of cryptocurrency coins or tokens that are publicly available and circulating in the market.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Cloud",
+            "slug": "cloud",
+            "excerpt": "In computer science, a shared pool of resources, which are made available to multiple users through the Internet.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Coin",
+            "slug": "coin",
+            "excerpt": "A cryptocurrency or digital cash that is independent of any other platform, which is used as an exchange of value.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Collateral",
+            "slug": "collateral",
+            "excerpt": "Pledging something of value against a loan to guarantee that the person taking the loan will complete repayment.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Colocation",
+            "slug": "colocation",
+            "excerpt": "A dedicated space in a data center belonging to stock exchanges which is shared with other entities such as high-frequency traders.",
+            "difficulty": {
+                "level": 3,
+                "label": "Advanced",
+                "slug": "advanced"
+            }
+        },
+        {
+            "title": "Commodity Futures Trading Commission CFTC",
+            "slug": "commodity-futures-trading-commission",
+            "excerpt": "US-based agency responsible for regulating the derivatives markets, which includes options, swaps, and futures contracts.",
+            "difficulty": {
+                "level": 3,
+                "label": "Advanced",
+                "slug": "advanced"
+            }
+        },
+        {
+            "title": "Confirmation Time",
+            "slug": "confirmation-time",
+            "excerpt": "The time elapsed when a transaction is submitted to the network and the time it is recorded into a confirmed block.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Confluence",
+            "slug": "confluence",
+            "excerpt": "When multiple investment methods, technical indicators, or trading signals are combined to form a more reliable strategy.",
+            "difficulty": {
+                "level": 3,
+                "label": "Advanced",
+                "slug": "advanced"
+            }
+        },
+        {
+            "title": "Consumer Price Index CPI",
+            "slug": "consumer-price-index-cpi",
+            "excerpt": "A Consumer Price Index CPI is a measure used to track the effects of inflation over a period of time.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Credentials",
+            "slug": "credentials",
+            "excerpt": "Personal information. Examples include username, password, email address, qualifications and many more.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Cryptocurrency",
+            "slug": "cryptocurrency",
+            "excerpt": "A digital currency that is secured by cryptography to work as a medium of exchange within a peer-to-peer P2P economic system.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Cryptography",
+            "slug": "cryptography",
+            "excerpt": "The science of using mathematical theories and computation in order to encrypt and decrypt information.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Custody",
+            "slug": "custody",
+            "excerpt": "Refers to the holding of assets on behalf of a client. Can also refer to the ownership of one's funds or assets.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        }
+    ],
+    "d": [
+        {
+            "title": "Daemon",
+            "slug": "daemon",
+            "excerpt": "A process operating in the background waiting for a specific event or condition in order to be activated.",
+            "difficulty": {
+                "level": 3,
+                "label": "Advanced",
+                "slug": "advanced"
+            }
+        },
+        {
+            "title": "Dead Cat Bounce",
+            "slug": "dead-cat-bounce",
+            "excerpt": "A brief recovery in the price of a declining asset that is shortly followed by a continuation of the downtrend.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Decentralized Application DApp",
+            "slug": "decentralized-application",
+            "excerpt": "Applications that run on a P2P network of computers rather than one central computer. This allows the software to run on the internet without being controlled by a single entity.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Decentralized Autonomous Cooperative DAC",
+            "slug": "decentralized-autonomous-cooperative",
+            "excerpt": "An organization that is controlled by shareholders rather than a central authority.",
+            "difficulty": {
+                "level": 3,
+                "label": "Advanced",
+                "slug": "advanced"
+            }
+        },
+        {
+            "title": "Decentralized Autonomous Organization DAO",
+            "slug": "decentralized-autonomous-organization",
+            "excerpt": "A system of hard-coded rules that define which actions a decentralized organization will take.",
+            "difficulty": {
+                "level": 3,
+                "label": "Advanced",
+                "slug": "advanced"
+            }
+        },
+        {
+            "title": "Decentralized Exchange DEX",
+            "slug": "decentralized-exchange",
+            "excerpt": "An exchange which does not require users to deposit funds to start trading and does not hold the funds for the user. Instead, users trade directly from their own wallets.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Decentralized Finance DeFi",
+            "slug": "defi",
+            "excerpt": "The ecosystem comprised of decentralized financial applications developed on top of blockchain networks.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Decryption",
+            "slug": "decryption",
+            "excerpt": "The act of reverting an encryption process so that unreadable data ciphertext can be converted into readable data plaintext.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Deep Web",
+            "slug": "deep-web",
+            "excerpt": "The part of the web that is somehow hidden, i.e., not indexed by Google and other traditional web search engines.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Delisting",
+            "slug": "delisting",
+            "excerpt": "The removal of an asset from an exchange either as a request from the project team or as a decision made by the exchange.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Design Flaw Attack",
+            "slug": "design-flaw-attack",
+            "excerpt": "An attack in which a malicious user purposely creates a smart-contract, decentralized market, or other software with knowledge of certain flaws in order to trick individuals interacting within the permissionless environment.",
+            "difficulty": {
+                "level": 3,
+                "label": "Advanced",
+                "slug": "advanced"
+            }
+        },
+        {
+            "title": "Diamond Hands",
+            "slug": "diamond-hands",
+            "excerpt": "Diamond hands refers to holding a financial asset and not selling it, regardless of its volatility.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Difficulty",
+            "slug": "difficulty",
+            "excerpt": "In cryptocurrency, difficulty indicates the difficulty required to mine a block. Learn more at Binance Academy.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Difficulty Bomb",
+            "slug": "difficulty-bomb",
+            "excerpt": "The term 'difficulty bomb' denotes the increase in mining difficulty in Ethereum, as part of its migration to Proof of Stake.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Divergence",
+            "slug": "divergence",
+            "excerpt": "When the market price of an asset and a technical indicator e.g. RSI, Volume, MACD are heading in opposite directions.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Diversification",
+            "slug": "diversification",
+            "excerpt": "The allocation of funds across different types of assets and jurisdictions in order to reduce the overall risks.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Do Your Own Research DYOR",
+            "slug": "do-your-own-research",
+            "excerpt": "A valuable piece of advice. It's always wise to research a coin or token yourself instead of following what others say.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Dollar Cost Averaging DCA",
+            "slug": "dollar-cost-averaging",
+            "excerpt": "Investing fixed dollar amounts over regular periods of time regardless of the price of the asset.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Double Spending",
+            "slug": "double-spending",
+            "excerpt": "When a given amount of coins are spent more than once. Usually as a result of a race attack or a 51% attack.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        }
+    ],
+    "e": [
+        {
+            "title": "Eclipse Attack",
+            "slug": "eclipse-attack",
+            "excerpt": "When the majority of peers on the network are malicious and monopolize the network in order to prevent specific nodes from receiving information from honest nodes.",
+            "difficulty": {
+                "level": 3,
+                "label": "Advanced",
+                "slug": "advanced"
+            }
+        },
+        {
+            "title": "Efficient Market Hypothesis EMH",
+            "slug": "efficient-market-hypothesis-emh",
+            "excerpt": "An economic theory stating financial markets reflect all available information on the price of assets at any time.",
+            "difficulty": {
+                "level": 3,
+                "label": "Advanced",
+                "slug": "advanced"
+            }
+        },
+        {
+            "title": "Encryption",
+            "slug": "encryption",
+            "excerpt": "Conversion of information or data into a secure code in order to prevent unauthorised access to the information or data.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Enterprise Ethereum Alliance EEA",
+            "slug": "ethereum-enterprise-alliance",
+            "excerpt": "The industry’s first global standards organization to deliver an open, standards-based architecture and specification to accelerate the adoption of Enterprise Ethereum.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "ERC-20",
+            "slug": "erc-20",
+            "excerpt": "A technical standard used to issue and implement tokens on the Ethereum blockchain proposed in November 2015 by Fabian Vogelsteller.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "ERC-721",
+            "slug": "erc-721",
+            "excerpt": "An Ethereum based non-fungible token. This means that each token is unique and as a result, not interchangeable.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Exchange",
+            "slug": "exchange",
+            "excerpt": "A marketplace for cryptocurrencies where users can buy and sell coins.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        }
+    ],
+    "f": [
+        {
+            "title": "Fakeout",
+            "slug": "fakeout",
+            "excerpt": "A situation where a trader enters a position betting on a price movement that quickly reverses or ultimately doesn’t happen.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Falling Knife",
+            "slug": "falling-knife",
+            "excerpt": "Refers to the action of purchasing an asset while it is rapidly declining in price under the expectation that it will bounce.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Fear Of Missing Out FOMO",
+            "slug": "fear-of-missing-out",
+            "excerpt": "The feeling of fear and anxiety that you might be missing out on a potentially profitable opportunity.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Fear, Uncertainty and Doubt FUD",
+            "slug": "fear-uncertainty-and-doubt",
+            "excerpt": "A marketing strategy used to spread fear and insecurity among customers, traders, or investors.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Fiat",
+            "slug": "fiat",
+            "excerpt": "Money that a government has declared to be legal tender.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Fill Or Kill Order FOK",
+            "slug": "fill-or-kill-order",
+            "excerpt": "A buy or sell order which must be executed immediately in its entirety or else it will be cancelled.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Finality",
+            "slug": "finality",
+            "excerpt": "The assurance or guarantee that completed cryptocurrency transactions cannot be altered, reversed or canceled.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "First-Mover Advantage FMA",
+            "slug": "first-mover-advantage",
+            "excerpt": "The competitive advantage of the first project to bring a service or product into a new and unexplored market or industry.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Fiscal Policy",
+            "slug": "fiscal-policy",
+            "excerpt": "Describes how authorities adjusts the tax rates of a country, influencing how public funds should be collected and used.",
+            "difficulty": {
+                "level": 3,
+                "label": "Advanced",
+                "slug": "advanced"
+            }
+        },
+        {
+            "title": "Flappening",
+            "slug": "flappening",
+            "excerpt": "The name to describe the moment when Litecoin LTC surpassed Bitcoin Cash BCH in terms of market capitalization",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Flippening",
+            "slug": "flippening",
+            "excerpt": "The name to describe the moment when/if Ethereum ETH surpasses Bitcoin BTC in terms of market capitalization",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Forced Liquidation",
+            "slug": "forced-liquidation",
+            "excerpt": "When a trader's leveraged position is forcibly closed as a result of it not fulfilling the necessary margin requirements.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Forex FX",
+            "slug": "forex-fx",
+            "excerpt": "Forex stands for Foreign Exchange Markets. It's a global market for the trading of fiat currencies.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Formal Verification",
+            "slug": "formal-verification",
+            "excerpt": "Using mathematically rigorous proofs to ensure certain properties of cryptographic algorithms and blockchain mechanisms",
+            "difficulty": {
+                "level": 3,
+                "label": "Advanced",
+                "slug": "advanced"
+            }
+        },
+        {
+            "title": "Full Node",
+            "slug": "full-node",
+            "excerpt": "A computer that fully implements the entirety of rules of an underlying blockchain network and completely validates transactions and blocks on a blockchain.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Fundamental Analysis FA",
+            "slug": "fundamental-analysis",
+            "excerpt": "Evaluating an asset based on its underlying characteristics and traits as an effort towards arriving at an intrinsic value of the asset.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Fungibility",
+            "slug": "fungibility",
+            "excerpt": "The property of an asset whose individual units are indistinguishable from each other in terms of value and functionality.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Futures Contract",
+            "slug": "futures-contract",
+            "excerpt": "A standardized version of forward contracts that are used as a legal agreement to buy or sell an asset in the future at an agreed upon price and date.",
+            "difficulty": {
+                "level": 3,
+                "label": "Advanced",
+                "slug": "advanced"
+            }
+        }
+    ],
+    "g": [
+        {
+            "title": "Gas",
+            "slug": "gas",
+            "excerpt": "The pricing mechanism employed  on the Ethereum blockchain to calculate the costs of smart contracts operations and transaction fees.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Gas Limit",
+            "slug": "gas-limit",
+            "excerpt": "The maximum price a cryptocurrency user is willing to pay as a fee when sending a transaction, or performing a smart contract function.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "General Public License",
+            "slug": "general-public-license",
+            "excerpt": "License allowing users to copy and modify software, but requires the works to be distributed under the same license.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Genesis Block",
+            "slug": "genesis-block",
+            "excerpt": "The first ever block recorded on its respective blockchain network, also referred to as Block 0 or Block 1.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "GitHub",
+            "slug": "github",
+            "excerpt": "A site/system/folder/repository where a team can share, collaborate, and save their open source or propietary code.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Golden Cross",
+            "slug": "golden-cross",
+            "excerpt": "A bullish chart pattern where a shorter-term moving average crosses above a longer-term moving average.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Gossip Protocol",
+            "slug": "gossip-protocol",
+            "excerpt": "A particular method of asynchronous peer-to-peer communication between computer nodes of a distributed system.",
+            "difficulty": {
+                "level": 3,
+                "label": "Advanced",
+                "slug": "advanced"
+            }
+        },
+        {
+            "title": "Gwei",
+            "slug": "gwei",
+            "excerpt": "A small denomination of Ether. It is widely used as a measure of gas prices. 1,000,000,000 wei = 1 Giga wei Gwei",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        }
+    ],
+    "h": [
+        {
+            "title": "Hacker",
+            "slug": "hacker",
+            "excerpt": "An individual that has an advanced understanding of computer systems and networks, including programmers and cybersecurity experts.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Haha Money Printer Go Brrrrr",
+            "slug": "haha-money-printer-go-brrrrr",
+            "excerpt": "Haha Money Printer Go Brrrrr is meme created in response to the Federal Reserve's 2020 plan to print money.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Halving",
+            "slug": "halving",
+            "excerpt": "When the block reward of a crypto asset, such as bitcoin, drops to one-half of what it was before; this is used to create a decaying rate of issuance to arrive at an eventual finite supply of a crypto asset.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Hard Cap",
+            "slug": "hard-cap",
+            "excerpt": "The maximum amount of funds a project intends to raise during their Initial Coin Offering ICO or alternative fundraising event.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Hash",
+            "slug": "hash",
+            "excerpt": "The output produced by a hash function after a piece of data is mapped. May also be referred to as hash value, hash code, or digest.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Hash Rate",
+            "slug": "hash-rate",
+            "excerpt": "The speed at which a computer or mining hardware is able to calculate new hashes. Usually measured in hashes per second.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Hashed TimeLock Contract HTLC",
+            "slug": "hashed-timelock-contract",
+            "excerpt": "Refers to a special feature that is used to create smart contracts that are able to modify payment channels.",
+            "difficulty": {
+                "level": 3,
+                "label": "Advanced",
+                "slug": "advanced"
+            }
+        },
+        {
+            "title": "High-Frequency Trading HFT",
+            "slug": "high-frequency-trading-hft",
+            "excerpt": "A type of algorithmic trading that involves the execution of a large number of orders in fractions of a second.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "HODL",
+            "slug": "hodl",
+            "excerpt": "A typo of 'Hold' originating from bitcointalk that has also been retrofitted to be an acronym for Hold on for Dear Life - to maintain ownership of coins and not sell.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Honeypot",
+            "slug": "honeypot",
+            "excerpt": "A mechanism used in computer security used to detect or counteract unauthorized access of information systems.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        }
+    ],
+    "i": [
+        {
+            "title": "Iceberg Order",
+            "slug": "iceberg-order",
+            "excerpt": "A conditional order to buy or sell a large amount of assets in smaller predetermined quantities in order to conceal the total order quantity.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Immutability",
+            "slug": "immutability",
+            "excerpt": "The inability to change or be changed. One of the core features behind Bitcoin and blockchain technology.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Index",
+            "slug": "index",
+            "excerpt": "A financial instrument used to track the price value of a given asset or basket of assets",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Initial Coin Offering ICO",
+            "slug": "initial-coin-offering",
+            "excerpt": "A fundraising method in which new projects will sell their cryptocurrency to investors.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Initial Exchange Offering IEO",
+            "slug": "initial-exchange-offering",
+            "excerpt": "A fundraising method designed to reduce the risk for token purchasers by introducing a trusted intermediary between the project team and the user.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Initial Public Offering IPO",
+            "slug": "initial-public-offering",
+            "excerpt": "Refers to the moment a private company starts offering its shares to the public for the first time.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Integrated Circuit IC",
+            "slug": "integrated-circuit",
+            "excerpt": "A small chip, typically made of silicon, that holds a set of electronic parts such as transistors, resistors or capacitors.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Interoperability",
+            "slug": "interoperability",
+            "excerpt": "A concept of allowing blockchains to be compatible with each other and build upon each other's features and use-cases.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "InterPlanetary File System IPFS",
+            "slug": "interplanetary-file-system-ipfs",
+            "excerpt": "An open-source project building a protocol for distributed content storage and access.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "IOU",
+            "slug": "iou",
+            "excerpt": "An acronym which stands for “I owe you” and refers to an informal document that acknowledges a debt one party owes to another.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Isolated Margin",
+            "slug": "isolated-margin",
+            "excerpt": "The margin balance allocated to a position. Traders can manage risk by restricting the amount allocated to each position.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Issuance",
+            "slug": "issuance",
+            "excerpt": "Generation of a new cryptocurrency which occurs in a variety of different ways, depending on parameters specified by the creators.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        }
+    ],
+    "j": [
+        {
+            "title": "Jager",
+            "slug": "jager",
+            "excerpt": "The smallest denomination of BNB. Derived from the Telegram handle of the Binance Community Manager at the time.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        }
+    ],
+    "k": [
+        {
+            "title": "Keccak",
+            "slug": "keccak",
+            "excerpt": "A versatile cryptographic function designed by Guido Bertoni, Joan Daemen, Michaël Peeters, and Gilles Van Assche.",
+            "difficulty": {
+                "level": 3,
+                "label": "Advanced",
+                "slug": "advanced"
+            }
+        },
+        {
+            "title": "Know Your Customer KYC",
+            "slug": "know-your-customer",
+            "excerpt": "A standard procedure in the finance industry which allows companies to identify their customers and comply with KYC AML laws",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        }
+    ],
+    "l": [
+        {
+            "title": "Latency",
+            "slug": "latency",
+            "excerpt": "The time between submitting a transaction to a network and the first confirmation of acceptance by the network.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Law of Demand",
+            "slug": "law-of-demand",
+            "excerpt": "The law of demand relates to the willingness of consumers to buy a specific amount of goods or services for a particular price.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Layer 2",
+            "slug": "layer-2",
+            "excerpt": "A secondary framework or protocol that is built on top of an existing blockchain system to provide increased scalability.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Ledger",
+            "slug": "ledger",
+            "excerpt": "A physical book or a digital computer file where monetary and financial transactions are tracked and recorded.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Library",
+            "slug": "library",
+            "excerpt": "A collection of stable resources, which may include executable files, documentation, message templates, and written code.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Lightning Network",
+            "slug": "lightning-network",
+            "excerpt": "A second layer operating on top of a blockchain, enabling increased transaction speed among participating nodes. This is one proposed scaling solution.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Linux",
+            "slug": "linux",
+            "excerpt": "A popular open-source operating system, created in 1991 by Linus Torvalds. It is used in a wide range of devices around the world.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Liquidity",
+            "slug": "liquidity",
+            "excerpt": "The ability to sell or buy any given asset without causing significant fluctuations in the market price for that asset.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Listing",
+            "slug": "listing",
+            "excerpt": "The addition of an asset to an exchange either as a request from the project team or as a decision made by the exchange.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        }
+    ],
+    "m": [
+        {
+            "title": "Mainnet",
+            "slug": "mainnet",
+            "excerpt": "A blockchain protocol which is fully developed and deployed where transactions are being broadcasted, verified, and recorded.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Mainnet Swap",
+            "slug": "mainnet-swap",
+            "excerpt": "When a coin migrates from a third party platform such as Ethereum or other token to a native on-chain token on their mainnet.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Maker",
+            "slug": "maker",
+            "excerpt": "You become a “maker” when you place an order and it does not trade immediately, so your order stays in the order book and waits for someone else to fill/match with it later.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Malware",
+            "slug": "malware",
+            "excerpt": "Any software program or code that is created to infiltrate and intentionally cause damage to computer systems and networks.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Margin Trading",
+            "slug": "margin-trading",
+            "excerpt": "Trading using borrowed funds  - note: this is a high risk strategy and should only be done by experienced investors.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Market Capitalization",
+            "slug": "market-capitalization",
+            "excerpt": "The total trading value of a given coin - calculated by the product of the supply of the coin by the current price.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Market Momentum",
+            "slug": "market-momentum",
+            "excerpt": "The ability of a certain market to maintain a continuous increase or decrease in price within a particular timeframe.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Market Order",
+            "slug": "market-order",
+            "excerpt": "When a taker picks the best available bid or ask for a cryptocurrency, taking the price and quantity available on the order book.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Masternode",
+            "slug": "masternode",
+            "excerpt": "Nodes on a network that often require a minimum amount of a given coin staked in order to access staking rewards.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Maximum Supply",
+            "slug": "maximum-supply",
+            "excerpt": "Refers to the maximum number of coins or tokens that will be ever created for a given cryptocurrency.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Mempool",
+            "slug": "mempool",
+            "excerpt": "A node’s mechanism for keeping track of unconfirmed transactions that the node has seen but have not yet been added to a block.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Merged Mining",
+            "slug": "merged-mining",
+            "excerpt": "The act of mining two or more cryptocurrencies at the same time, without sacrificing overall mining performance",
+            "difficulty": {
+                "level": 3,
+                "label": "Advanced",
+                "slug": "advanced"
+            }
+        },
+        {
+            "title": "Merkle Tree",
+            "slug": "merkle-tree",
+            "excerpt": "A way of organizing and structuring large amounts of data to make it more straightforward to process. A hash-based data structure.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Metadata",
+            "slug": "metadata",
+            "excerpt": "Data that includes information about other data, such as information about features of a specific transaction.",
+            "difficulty": {
+                "level": 3,
+                "label": "Advanced",
+                "slug": "advanced"
+            }
+        },
+        {
+            "title": "Mining",
+            "slug": "mining",
+            "excerpt": "The verification of transactions on a blockchain network, in which transactions are added as entries into the blockchain ledger.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Mining Farm",
+            "slug": "mining-farm",
+            "excerpt": "A collection of many miners, often in a warehouse or large data center devoted to mining cryptocurrencies",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Monetary Policy",
+            "slug": "monetary-policy",
+            "excerpt": "Refers to the policies that authorities create and adopt to control the money supply and interest rates of a country.",
+            "difficulty": {
+                "level": 3,
+                "label": "Advanced",
+                "slug": "advanced"
+            }
+        },
+        {
+            "title": "Moon",
+            "slug": "moon",
+            "excerpt": "A colloquial expression used to describe a cryptocurrency or other asset that is experiencing a strong upward market trend.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Multisignature",
+            "slug": "multisignature",
+            "excerpt": "Wallet which requires another party to authorize a transaction before it is broadcasted to the network.",
+            "difficulty": {
+                "level": 3,
+                "label": "Advanced",
+                "slug": "advanced"
+            }
+        }
+    ],
+    "n": [
+        {
+            "title": "Node",
+            "slug": "node",
+            "excerpt": "A participant on a blockchain network that communicates with other participants to ensure the security and integrity of the system.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Non-fungible Token NFT",
+            "slug": "non-fungible-token-nft",
+            "excerpt": "A type of cryptographic token that represents a unique digital or real-world asset and isn't interchangeable.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Nonce",
+            "slug": "nonce",
+            "excerpt": "A single-use arbitrary string or number generated for verification purposes to prevent replaying past transactions.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        }
+    ],
+    "o": [
+        {
+            "title": "Off-chain",
+            "slug": "off-chain",
+            "excerpt": "Transactions that occur off a given blockchain network, that may be later reported or batched together before submitted to the main chain.",
+            "difficulty": {
+                "level": 3,
+                "label": "Advanced",
+                "slug": "advanced"
+            }
+        },
+        {
+            "title": "Offshore account",
+            "slug": "offshore-account",
+            "excerpt": "An account that is registered in a jurisdiction that is different to the jurisdiction of the holder's citizenship.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "One Cancels the Other Order OCO",
+            "slug": "one-cancels-the-other-order",
+            "excerpt": "A pair of orders that are created concurrently, but it is only possible for one of them to execute.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Open-Source Software OSS",
+            "slug": "open-source-software-oss",
+            "excerpt": "Software released under a license that gives anyone the ability and right to use, update, and distribute it freely.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Oracle",
+            "slug": "oracle",
+            "excerpt": "A data source or feed from a third party used for determining outcomes for smart contracts",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Order Book",
+            "slug": "order-book",
+            "excerpt": "An electronic list of outstanding buy and sell orders for a specific asset on an exchange or marketplace.\n",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Orphan Block",
+            "slug": "orphan-block",
+            "excerpt": "A block whose parent block is unknown, formed in older versions of Bitcoin Core, where ancestry data wasn't required.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        }
+    ],
+    "p": [
+        {
+            "title": "Paper Wallet",
+            "slug": "paper-wallet",
+            "excerpt": "A piece of paper on which a cryptocurrency address and its corresponding private key are physically printed out.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Passive Management",
+            "slug": "passive-management",
+            "excerpt": "An investing strategy that doesn’t rely on active market exposure but rather tracks an existing economic index.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Peer-to-Peer P2P",
+            "slug": "peer-to-peer",
+            "excerpt": "When two or more computers are connected and share workload or resources without relying on a centralized server.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Pegged Currency",
+            "slug": "pegged-currency",
+            "excerpt": "A currency where the price is designed to remain the same as a designated asset. For example: 1 USDT is pegged to 1 USD. Also referred to as a stablecoin.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Phishing",
+            "slug": "phishing",
+            "excerpt": "A malicious attack where a bad actor will attempt to obtain the credentials of a user in order to gain unauthorised access into their account.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Plasma",
+            "slug": "plasma",
+            "excerpt": "An Ethereum off-chain scaling solution which may allow Etherum to greatly increase the transactions per second capablities.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Polkadot Crowdloan",
+            "slug": "polkadot-crowdloan",
+            "excerpt": "Polkadot Crowdloan refers to the process of staking Polkadot DOT tokens to support specific projects in the Polkadot Slot Auction. In return, participants can receive rewards from the projects.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Ponzi Scheme",
+            "slug": "ponzi-scheme",
+            "excerpt": "A scam in which new investors' funds are used to pay returns promised to previous investors. Do not invest in these.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Price Action",
+            "slug": "price-action",
+            "excerpt": "The price movements of a financial asset over time. Plotted on a chart, it can be used by traders to identify trade setups.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Prisoner's Dilemma",
+            "slug": "prisoners-dilemma",
+            "excerpt": "An example that shows why two individuals might not cooperate, even if it may appear to be in their best interest.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Private Key",
+            "slug": "private-key",
+            "excerpt": "In cryptocurrency, a private key is a lengthy number that allows users to sign transactions and to generate receiving addresses.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Private Sale",
+            "slug": "private-sale",
+            "excerpt": "An early stage investment round for strategic investors with a considerable amount of investible funds.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Progressive Web application PWA",
+            "slug": "progressive-web-application",
+            "excerpt": "An application that is created through the use of modern web technologies and follows basic web standards.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Proof of Attendance Protocol POAP",
+            "slug": "proof-of-attendance-protocol-poap",
+            "excerpt": "A protocol that creates digital badges or collectibles to celebrate and record the attendance of an event.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Proof of Stake PoS",
+            "slug": "proof-of-stake",
+            "excerpt": "A consensus mechanism that reward block validators according to the amount of coins they have at stake.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Pseudorandom",
+            "slug": "pseudorandom",
+            "excerpt": "The property of a definite function that can produce an outcome that passes statistical tests of randomness.",
+            "difficulty": {
+                "level": 3,
+                "label": "Advanced",
+                "slug": "advanced"
+            }
+        }
+    ],
+    "q": [
+        {
+            "title": "Quantum Computing",
+            "slug": "quantum-computing",
+            "excerpt": "Quantum computing works using particles that can be in superposition. These particles represent qubits instead of bits and can take the value of 1, 0 or both simultaneously.",
+            "difficulty": {
+                "level": 3,
+                "label": "Advanced",
+                "slug": "advanced"
+            }
+        }
+    ],
+    "r": [
+        {
+            "title": "Race attack",
+            "slug": "race-attack",
+            "excerpt": "When two transactions are created with the same funds at the same time, with the intention of spending those funds twice.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Ransomware",
+            "slug": "ransomware",
+            "excerpt": "A type of malware which takes over your computer and threatens to destroy or reveal files unless a ransom is paid.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Rekt",
+            "slug": "rekt",
+            "excerpt": "A slang term used to define someone or something that has been destroyed or experienced catastrophic failure and a synonym for liquidated",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Relative Strength Index RSI",
+            "slug": "relative-strength-index",
+            "excerpt": "A technical indicator that measures market momentum & used to identify overbought and oversold conditions.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Resistance",
+            "slug": "resistance",
+            "excerpt": "A term in Technical Analysis TA. When a price that is increasing finds resistance. Usually compared with previous highs.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Return on Investment ROI",
+            "slug": "return-on-investment",
+            "excerpt": "A measure used in order to assess the efficiency of an investment. The ratio between net profit and net cost.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Roadmap",
+            "slug": "roadmap",
+            "excerpt": "A business planning technique which lays out the short and long term goals of a company within a flexible estimated timeline.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Routing Attack",
+            "slug": "routing-attack",
+            "excerpt": "An attack on the Internet Service Provider level to affect uptime or participation in a web-enabled system, such as a blockchain.",
+            "difficulty": {
+                "level": 3,
+                "label": "Advanced",
+                "slug": "advanced"
+            }
+        },
+        {
+            "title": "Rug pull",
+            "slug": "rug-pull",
+            "excerpt": "A rug pull in the crypto industry is when a development team suddenly abandons a project and sells or removes all its liquidity.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        }
+    ],
+    "s": [
+        {
+            "title": "Satoshi",
+            "slug": "satoshi",
+            "excerpt": "The smallest unit of a bitcoin, as defined by the Bitcoin protocol. It equals one-hundred-millionth of a bitcoin or 0.00000001 BTC.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Satoshi Nakamoto",
+            "slug": "satoshi-nakamoto",
+            "excerpt": "The pseudonym of the creator or creators of the bitcoin protocol and whitepaper.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Secure Asset Fund for Users SAFU",
+            "slug": "secure-asset-fund-for-users",
+            "excerpt": "Secure Asset Fund for Users is an emergency insurance fund created by Binance in 2018.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Securities and Exchange Commission SEC",
+            "slug": "securities-and-exchange-commission",
+            "excerpt": "An independent governmental agency responsible for regulating securities markets.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Security Audit",
+            "slug": "security-audit",
+            "excerpt": "A systematic analysis to evaluate how safe a system, smart contract, or blockchain is agaisnt attacks or technical failures.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Seed Phrase",
+            "slug": "seed-phrase",
+            "excerpt": "A seed phrase or menmonic seed is a collection of words that can be used to access your cryptocurrency wallet.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Segregated Witness SegWit",
+            "slug": "segregated-witness",
+            "excerpt": "A process where the transaction signatures are separated from bitcoin transactions. Allowing more transactions to fit within one block.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Selfish Mining",
+            "slug": "selfish-mining",
+            "excerpt": "The strategic withholding and releasing of blocks by a miner in order to gain a competitive advantage over the network.",
+            "difficulty": {
+                "level": 3,
+                "label": "Advanced",
+                "slug": "advanced"
+            }
+        },
+        {
+            "title": "Sell Wall",
+            "slug": "sell-wall",
+            "excerpt": "A very large limit sell order or a cumulation of sell orders at the same price level on an order book for an asset.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Server",
+            "slug": "server",
+            "excerpt": "Server",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Sentiment",
+            "slug": "sentiment",
+            "excerpt": "The overall attitude of a community in regards to a cryptocurrency or within investors towards a certain financial market.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Sharpe Ratio",
+            "slug": "sharpe-ratio",
+            "excerpt": "A ratio created in 1966 that investors and economists use to assess the potential return of investment ROI.",
+            "difficulty": {
+                "level": 3,
+                "label": "Advanced",
+                "slug": "advanced"
+            }
+        },
+        {
+            "title": "Smart Contract",
+            "slug": "smart-contract",
+            "excerpt": "Automated contracts that trigger certain action when predetermined conditions are met. It works like 'If…then' conditions as for instance, it needs condition C met before money can be transferred from A to B.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Snapshot",
+            "slug": "snapshot",
+            "excerpt": "The ability to record the state of a blockchain ledger, storage device, or computer system at a specific point in time.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Source Code",
+            "slug": "source-code",
+            "excerpt": "Computer code, which is responsible for defining how software will function based on a list of instructions and statements.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Stablecoin",
+            "slug": "stablecoin",
+            "excerpt": "A type of cryptocurrency that is designed to maintain a stable value, rather than experiencing significant price changes.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Staking Pool",
+            "slug": "staking-pool",
+            "excerpt": "A pool where stakeholders combine their staking power to increase their chance of successfully validating a new block.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "State Channel",
+            "slug": "state-channel",
+            "excerpt": "A two-way communication channel between two users or nodes on a network, or between a user and a service.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Store of Value",
+            "slug": "store-of-value",
+            "excerpt": "A commodity, asset or currency that can be saved, retrieved and exchanged at a future date, without suffering depreciation.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Supercomputer",
+            "slug": "supercomputer",
+            "excerpt": "A computer or virtual machine that operates at the highest level of currently possible computing power.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Supply Chain",
+            "slug": "supply-chain",
+            "excerpt": "A network of people and businesses involved in creating and distributing a particular product or serving a particular customer.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Support",
+            "slug": "support",
+            "excerpt": "A term in Technical Analysis TA. When a price that is decreasing finds 'support'. Usually compared with lows.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        }
+    ],
+    "t": [
+        {
+            "title": "Taker",
+            "slug": "taker",
+            "excerpt": "The 'taker' is someone who decides to place an order that is instantly matched with an existing order on the order book.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Tank",
+            "slug": "tank",
+            "excerpt": "A term adopted from the traditional financial markets and describes a strong negative financial performance of a particular asset",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Ticker",
+            "slug": "ticker",
+            "excerpt": "The trading 'symbol' or shortened name typically in capital letters that refer to a coin on a trading platform. For example: BNB",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Token",
+            "slug": "token",
+            "excerpt": "Tokens not to be confused with coins are digital units issued on a blockchain. They can hold value or be redeemed for assets.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Token Lockup",
+            "slug": "token-lockup",
+            "excerpt": "Token lockup or vesting period refers to the time span in which tokens or coins are not allowed to be transferred or traded.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Token Sale",
+            "slug": "token-sale",
+            "excerpt": "The issuance of tokens in exchange for another cryptocurrency. Also referred to as an Initial Coin Offering.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Total Supply",
+            "slug": "total-supply",
+            "excerpt": "Refers to the number of coins or tokens that currently exists and are either in circulation or locked somehow.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Transaction ID TXID",
+            "slug": "transaction-id",
+            "excerpt": "A transaction ID TXID is a unique string of characters that labels each transaction on the blockchain.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Transactions Per Second TPS",
+            "slug": "transactions-per-second-tps",
+            "excerpt": "The number of transactions that a blockchain network is capable of processing each second.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Trustless",
+            "slug": "trustless",
+            "excerpt": "No single entity has authority over the system and consensus is achieved between participants who do not have to trust each other.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Turing Complete",
+            "slug": "turing-complete",
+            "excerpt": "A machine that, given enough time and memory along with the necessary instructions, can solve any computational problem, no matter how complex.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        }
+    ],
+    "u": [
+        {
+            "title": "Unit of Account",
+            "slug": "unit-of-account",
+            "excerpt": "One of the primary properties of money. Allowing measurement and comparison of the value of different things.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Unspent Transaction Output UTXO",
+            "slug": "unspent-transaction-output-utxo",
+            "excerpt": "An output created in a transaction, which must be referenced in a future transaction to spend funds.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "User Interface UI",
+            "slug": "user-interface",
+            "excerpt": "The interface where interactions between humans and machines occur. It establishes how a user can interact with a machine.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        }
+    ],
+    "v": [
+        {
+            "title": "Verification Code",
+            "slug": "verification-code",
+            "excerpt": "Code sent to a second device to ensure the identity of someone logging in to an account. Used for Two-Factor Authentication",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Virtual Machine",
+            "slug": "virtual-machine",
+            "excerpt": "An emulated computer system, or a distributed system that is designed to replicate the features of a computer's architecture.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Vladimir Club",
+            "slug": "vladimir-club",
+            "excerpt": "A term used to describe someone who has acquired 1% of 1% 0.01% of the maximum supply of a cryptocurrency.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Volatility",
+            "slug": "volatility",
+            "excerpt": "How quickly and how much the price of an asset changes. Calculated in terms of standard deviations in the annual return of an asset over a set period of time.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Volume",
+            "slug": "volume",
+            "excerpt": "A measurement of the number of individual units of an asset that changed hands in a market during a given time.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        }
+    ],
+    "w": [
+        {
+            "title": "Wallet",
+            "slug": "wallet",
+            "excerpt": "Used to send and receive cryptocurrencies. Different types include software wallets, hardware wallets, and paper wallets.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Weak Hands",
+            "slug": "weak-hands",
+            "excerpt": "A term referring to traders or investors who lack the confidence to hold their assets or to follow their trading plans.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Weak Subjectivity",
+            "slug": "weak-subjectivity",
+            "excerpt": "Relates to the need for certain nodes to rely on other nodes when determining the current state of a PoS blockchain.",
+            "difficulty": {
+                "level": 3,
+                "label": "Advanced",
+                "slug": "advanced"
+            }
+        },
+        {
+            "title": "Web 1.0",
+            "slug": "web-1",
+            "excerpt": "The initial iteration of the web, when data was primarily read-only pages connected with hyperlinks. Also known as 'read-only' web.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Wei",
+            "slug": "wei",
+            "excerpt": "The smallest possible denomination of ether ETH, the currency used on the Ethereum network. Often used when referring to gas prices.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Whale",
+            "slug": "whale",
+            "excerpt": "An individual or organization that holds a large amount of Bitcoins or other cryptocurrency, allowing them to impact the markets.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Whiskers",
+            "slug": "whiskers",
+            "excerpt": "The lines extending from the colored bar in a candlestick chart that indicate the full low-high range of a trading pair within a certain time frame. Also referred to as wicks or shadows.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        },
+        {
+            "title": "Whitelist",
+            "slug": "whitelist",
+            "excerpt": "A list of allowed or trusted individuals, computer programs, or cryptocurrency addresses in relation to a service or event.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Wick",
+            "slug": "wick",
+            "excerpt": "A line found on a candlestick chart which is used to indicate where the price of an asset is fluctuating in regards to its opening and closing prices.",
+            "difficulty": {
+                "level": 1,
+                "label": "Beginner",
+                "slug": "beginner"
+            }
+        },
+        {
+            "title": "Wrapped Ether WETH",
+            "slug": "wrapped-ether",
+            "excerpt": "ERC-20 token representing Ether at a 1:1 ratio. It allows users to trade ETH to ERC-20 tokens on decentralized platforms.",
+            "difficulty": {
+                "level": 2,
+                "label": "Intermediate",
+                "slug": "intermediate"
+            }
+        }
+    ],
+    "z": [
+        {
+            "title": "Zero-Knowledge Proofs",
+            "slug": "zero-knowledge-proofs",
+            "excerpt": "Proofs to verify that transactions are valid without revealing any information about these transactions, providing privacy to the transaction while maintaining its legitimacy.",
+            "difficulty": {
+                "level": 3,
+                "label": "Advanced",
+                "slug": "advanced"
+            }
+        },
+        {
+            "title": "Zk-Snarks",
+            "slug": "zk-snarks",
+            "excerpt": "“Zero-Knowledge Succinct Non-Interactive Argument of Knowledge” - an approach to zero knowledge proofs.",
+            "difficulty": {
+                "level": 3,
+                "label": "Advanced",
+                "slug": "advanced"
+            }
+        }
+    ]
+}
