@@ -1,14 +1,14 @@
-import oldGlossary from '../src/data/oldGlossary.json';
+import data from '../src/data/glossary.json';
 import { addWords } from '../src/services/words.services';
 
 const main = async () => {
-  const glossary = Object.keys(oldGlossary).reduce((acc: string[], curr) => {
+  const glossary = Object.keys(data).reduce((acc: string[], curr) => {
     // eslint-disable-next-line
     // @ts-ignore
-    return [...acc, ...oldGlossary[curr].map(item => item.title.toLowerCase()).sort((a, b) => a.localeCompare(b))];
+    return [...acc, ...data[curr].reduce((acc, curr) => [...acc, ...curr.toLowerCase().split(' ')], [])];
   }, []);
-
-  await addWords(glossary);
+  console.log('pushing glossary...', glossary.length);
+  await addWords(glossary.sort((a, b) => a.localeCompare(b)));
 };
 
 main();

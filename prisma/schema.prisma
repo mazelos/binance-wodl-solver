@@ -14,4 +14,6 @@ model Words {
   id      Int    @id @default(autoincrement())
   word    String @unique
   length  Int
+
+  @@index([word], map: "Words_word_index")
 }
