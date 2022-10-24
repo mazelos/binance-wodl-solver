@@ -2,18 +2,15 @@ import { PrismaClient } from '@prisma/client';
 
 class PrismaManager {
   client: PrismaClient;
-  static instance: PrismaManager;
+  private static _instance = new PrismaManager();
 
-  constructor() {
+  private constructor() {
     this.client = new PrismaClient();
   }
 
-  static getInstance() {
-    if (!PrismaManager.instance) {
-      PrismaManager.instance = new PrismaManager();
-    }
-    return PrismaManager.instance;
+  static get instance() {
+    return this._instance;
   }
 }
 
-export default PrismaManager;
+export default PrismaManager.instance.client;

@@ -16,11 +16,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
   }
 
   try {
-    const words = await getWords(parseInt(count, 10), validLetters, badLetters);
-    console.log('words', words.length);
-
+    const words = await getWords();
     const filteredWords = filterData(words, parseInt(count, 10), validLetters, badLetters, convertWords === 'true');
-    console.log('filteredWords', filteredWords.length);
 
     return res.status(200).json(filteredWords);
   } catch (error) {

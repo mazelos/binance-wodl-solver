@@ -1,5 +1,3 @@
-import type { Words } from '@prisma/client';
-
 const checkWordIsValid = (word: string, count: number, validLetters: string, badLetters: string) => {
   if (word.length !== count) return false;
   if (!/^[a-zA-Z]+$/.test(word)) return false;
@@ -33,7 +31,7 @@ const convertWord = (word: string) => {
 };
 
 export const filterData = (
-  words: Words[],
+  words: string[],
   count: number,
   validLetters: string,
   badLetters: string,
@@ -42,8 +40,7 @@ export const filterData = (
   if (!count) return [];
   const all: Record<string, string> = {};
 
-  words.forEach(w => {
-    const { word } = w;
+  words.forEach(word => {
     const title = word.replace(/[^a-z0-9 -]/gi, '').toLowerCase();
     if (checkWordIsValid(title, count, validLetters, badLetters)) {
       all[title] = title;

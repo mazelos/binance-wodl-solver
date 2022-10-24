@@ -10,7 +10,7 @@ export default function Notification({
 }: {
   message: string;
   show: boolean;
-  setShow: (show: boolean) => void;
+  setShow: (show: string | null) => void;
 }): JSX.Element {
   return (
     <>
@@ -45,7 +45,7 @@ export default function Notification({
                       type="button"
                       className="inline-flex rounded-md bg-white text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                       onClick={() => {
-                        setShow(false);
+                        setShow(null);
                       }}
                     >
                       <span className="sr-only">Close</span>

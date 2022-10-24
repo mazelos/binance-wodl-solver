@@ -23,17 +23,36 @@ const fetchWords = async (
   }
 };
 
+const submitNewWords = async (newWordsRaw: string) => {
+  try {
+    await axios.post('/api/words/add', {
+      words: newWordsRaw
+        .replaceAll(',', ' ')
+        .trim()
+        .toLowerCase()
+        .split(' ')
+        .filter(w => w.length),
+    });
+  } catch (error) {
+    return;
+  }
+};
+
 const Home: NextPage = () => {
   const [count, setCount] = useState(5);
   const [validLetters, setValidLetters] = useState('');
   const [badLetters, setBadLetters] = useState('');
   const [convertWords, setConvertWords] = useState(false);
   const [submitFired, setSubmitFired] = useState(false);
-  const [showNotification, setShowNotification] = useState(false);
-  // const [newWords, setNewWords] = useState('');
+  const [notification, setNotification] = useState<string | null>(null);
+  const [newWords, setNewWords] = useState('');
   // const [words, setWords] = useState<string[]>([]);
 
-  const { data: words, refetch: refetchWords } = useQuery(
+  const {
+    data: words,
+    refetch: refetchWords,
+    isLoading: wordsLoading,
+  } = useQuery(
     ['get-words', count, validLetters, badLetters, convertWords],
     () => fetchWords(count, validLetters, badLetters, convertWords),
     {
@@ -42,10 +61,27 @@ const Home: NextPage = () => {
     }
   );
 
+  const { refetch: refetchSubmitNewWords, isLoading: submintNewWordsLoading } = useQuery(
+    ['submit-new-words'],
+    () => submitNewWords(newWords),
+    {
+      refetchOnWindowFocus: false,
+      enabled: false,
+    }
+  );
+
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setSubmitFired(true);
     refetchWords();
+  };
+
+  const handleSubmitNewWords = (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    if (!newWords?.length) return;
+    refetchSubmitNewWords();
+    setNewWords('');
+    setNotification('Words submitted successfully!');
   };
 
   const handleCountChange = (value: number) => {
@@ -65,9 +101,9 @@ const Home: NextPage = () => {
       case 'convert-words':
         setConvertWords(currVal => !currVal);
         break;
-      // case 'new-words':
-      //   setNewWords(value || '');
-      //   break;
+      case 'new-words':
+        setNewWords(value || '');
+        break;
       default:
         break;
     }
@@ -80,7 +116,7 @@ const Home: NextPage = () => {
         <meta name="description" content="Wodl solver" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Notification message="Wodl copied!" show={showNotification} setShow={setShowNotification} />
+      <Notification message={notification || ''} show={!!notification} setShow={setNotification} />
 
       <div className="flex flex-col min-h-full items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
         <div className="w-full max-w-md space-y-8">
@@ -152,9 +188,36 @@ const Home: NextPage = () => {
             </div>
           </form>
         </div>
-        <div className="mt-8">
-          <WordsList words={words} toggleShowCopiedNotification={setShowNotification} />
-        </div>
+
+        {!words?.length && submitFired && !wordsLoading ? (
+          <div className="mt-16 mb-8 max-w-md w-full flex flex-col items-center">
+            <h2 className="text-lg text-gray-800">No words found 🤷🏻</h2>
+            <p className="text-sm text-gray-600">Submit new words below (separated by comma or space).</p>
+
+            <form className="space-y-6 w-full flex justify-between items-end" onSubmit={handleSubmitNewWords}>
+              <input
+                type="text"
+                id="new-words"
+                name="new-words"
+                placeholder="Enter new words"
+                value={newWords}
+                onChange={handleChange}
+                className="mr-2 flex-grow appearance-none rounded-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
+              />
+
+              <button
+                type="submit"
+                className="group relative flex justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+              >
+                Submit ✔
+              </button>
+            </form>
+          </div>
+        ) : (
+          <div className="space-y-8">
+            <WordsList words={words} setNotification={setNotification} />
+          </div>
+        )}
       </div>
     </>
   );
