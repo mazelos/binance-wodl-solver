@@ -21,6 +21,7 @@
       "@utils/*": ["utils/*"],
       "@data/*": ["data/*"],
       "@assets/*": ["assets/*"],
+      "@managers/*": ["managers/*"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
