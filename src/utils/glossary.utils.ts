@@ -74,38 +74,5 @@ export const filterData = (
       });
   });
 
-  // Object.values(glossary).forEach(d =>
-  //   d.forEach(a => {
-  //     const title = a.replace(/[^a-z0-9 -]/gi, '').toLowerCase();
-
-  //     if (checkWordIsValid(title, count)) {
-  //       all[title] = title;
-  //     }
-
-  //     a.toLowerCase()
-  //       .split(' ')
-  //       .forEach(word => {
-  //         if (word.match(/-/i)) {
-  //           word.split('-').forEach(w => {
-  //             if (checkWordIsValid(w, count, validLetters, badLetters)) {
-  //               all[w] = w;
-  //             }
-  //           });
-  //         }
-  //         if (checkWordIsValid(word, count, validLetters, badLetters)) {
-  //           all[word] = word;
-  //         }
-  //         if (includeConvertedWords) {
-  //           const convertedWord = convertWord(word);
-  //           if (convertedWord && checkWordIsValid(convertedWord, count, validLetters, badLetters)) {
-  //             all[convertedWord] = convertedWord;
-  //           }
-  //         }
-  //       });
-  //     const moreWords = title.split(' ').filter(d => checkWordIsValid(d, count, validLetters, badLetters));
-  //     moreWords.forEach(mw => (all[mw] = mw));
-  //   })
-  // );
-
   return Object.values(all);
 };
