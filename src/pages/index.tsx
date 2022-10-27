@@ -109,6 +109,12 @@ const Home: NextPage = () => {
     }
   };
 
+  const clearInputs = () => {
+    setValidLetters('');
+    setBadLetters('');
+    setConvertWords(false);
+  };
+
   return (
     <>
       <Head>
@@ -118,10 +124,10 @@ const Home: NextPage = () => {
       </Head>
       <Notification message={notification || ''} show={!!notification} setShow={setNotification} />
 
-      <div className="flex flex-col min-h-full items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+      <div className="flex flex-col items-center justify-center min-h-full px-4 py-12 sm:px-6 lg:px-8">
         <div className="w-full max-w-md space-y-8">
           <div className="flex flex-col items-center">
-            <Image className="h-12 w-auto" src={BinanceLogo} alt="Your Company" />
+            <Image className="w-auto h-12" src={BinanceLogo} alt="Your Company" />
             <h2 className="mt-6 text-3xl font-bold tracking-tight text-gray-900">Wodl Solver</h2>
             <p className="mt-2 text-sm text-gray-600">Search potential crypto words to solve your WODL</p>
           </div>
@@ -144,7 +150,7 @@ const Home: NextPage = () => {
                   placeholder="Enter found letters"
                   value={validLetters}
                   onChange={handleChange}
-                  className="mb-8 relative block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
+                  className="relative block w-full px-3 py-2 mb-8 text-gray-900 placeholder-gray-500 border border-gray-300 rounded-md appearance-none focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
                 />
               </div>
 
@@ -159,7 +165,7 @@ const Home: NextPage = () => {
                   placeholder="Enter invalid letters"
                   value={badLetters}
                   onChange={handleChange}
-                  className="mb-8 relative block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
+                  className="relative block w-full px-3 py-2 mb-8 text-gray-900 placeholder-gray-500 border border-gray-300 rounded-md appearance-none focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
                 />
               </div>
             </div>
@@ -172,29 +178,36 @@ const Home: NextPage = () => {
                   name="convert-words"
                   onChange={handleChange}
                   checked={convertWords}
-                  className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
+                  className="w-4 h-4 text-indigo-600 border-gray-300 rounded focus:ring-indigo-500"
                 />
-                <label htmlFor="remember-me" className="ml-2 block text-sm text-gray-900">
+                <label htmlFor="remember-me" className="block ml-2 text-sm text-gray-900">
                   Convert plurals to singular and vice versa?
                 </label>
               </div>
             </div>
 
-            <div>
+            <div className="flex">
+              <button
+                onClick={clearInputs}
+                className="relative flex justify-center w-full px-4 py-2 mr-3 text-sm font-medium bg-white border border-indigo-700 rounded-md group text-indigo-700 hover:bg-indigo-700 hover:text-white"
+              >
+                Clear
+              </button>
+
               <button
                 type="submit"
-                className="group relative flex w-full justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                className="relative flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-indigo-600 border border-transparent rounded-md group hover:bg-indigo-700"
               >{`Search ${count} character words`}</button>
             </div>
           </form>
         </div>
 
         {!words?.length && submitFired && !wordsLoading ? (
-          <div className="mt-16 mb-8 max-w-md w-full flex flex-col items-center">
+          <div className="flex flex-col items-center w-full max-w-md mt-16 mb-8">
             <h2 className="text-lg text-gray-800">No words found 🤷🏻</h2>
             <p className="text-sm text-gray-600">Submit new words below (separated by comma or space).</p>
 
-            <form className="space-y-6 w-full flex justify-between items-end" onSubmit={handleSubmitNewWords}>
+            <form className="flex items-end justify-between w-full space-y-6" onSubmit={handleSubmitNewWords}>
               <input
                 type="text"
                 id="new-words"
@@ -202,12 +215,12 @@ const Home: NextPage = () => {
                 placeholder="Enter new words"
                 value={newWords}
                 onChange={handleChange}
-                className="mr-2 flex-grow appearance-none rounded-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
+                className="flex-grow px-3 py-2 mr-2 text-gray-900 placeholder-gray-500 border border-gray-300 rounded-md appearance-none focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
               />
 
               <button
                 type="submit"
-                className="group relative flex justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                className="relative flex justify-center px-4 py-2 text-sm font-medium text-white bg-indigo-600 border border-transparent rounded-md group hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
               >
                 Submit ✔
               </button>
