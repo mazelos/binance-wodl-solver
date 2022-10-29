@@ -61,17 +61,12 @@ const Home: NextPage = () => {
     }
   );
 
-  const { refetch: refetchSubmitNewWords, isLoading: submintNewWordsLoading } = useQuery(
-    ['submit-new-words'],
-    () => submitNewWords(newWords),
-    {
-      refetchOnWindowFocus: false,
-      enabled: false,
-    }
-  );
+  const { refetch: refetchSubmitNewWords } = useQuery(['submit-new-words'], () => submitNewWords(newWords), {
+    refetchOnWindowFocus: false,
+    enabled: false,
+  });
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
-    console.log('submit');
     e.preventDefault();
     setSubmitFired(true);
     refetchWords();

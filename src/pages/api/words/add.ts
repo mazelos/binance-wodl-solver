@@ -13,6 +13,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
     if (!wordsRes) throw new Error('Error adding words');
     return res.status(200).json({ ok: true });
   } catch (error) {
+    //eslint-disable-next-line no-console
     console.log('error', error);
     return res.status(500).json({ ok: false });
   }

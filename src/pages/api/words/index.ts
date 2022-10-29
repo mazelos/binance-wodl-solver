@@ -21,6 +21,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
 
     return res.status(200).json(filteredWords);
   } catch (error) {
+    //eslint-disable-next-line no-console
     console.log('error', error);
     return res.status(500).json([]);
   }
