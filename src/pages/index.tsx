@@ -71,6 +71,7 @@ const Home: NextPage = () => {
   );
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+    console.log('submit');
     e.preventDefault();
     setSubmitFired(true);
     refetchWords();
@@ -132,7 +133,7 @@ const Home: NextPage = () => {
             <p className="mt-2 text-sm text-gray-600">Search potential crypto words to solve your WODL</p>
           </div>
 
-          <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
+          <form className="mt-8 space-y-6" onSubmit={handleSubmit} onReset={clearInputs}>
             <div className="">
               <div className="mb-8">
                 <SizeSelector size={count} setSize={handleCountChange} />
@@ -188,7 +189,7 @@ const Home: NextPage = () => {
 
             <div className="flex">
               <button
-                onClick={clearInputs}
+                type="reset"
                 className="relative flex justify-center w-full px-4 py-2 mr-3 text-sm font-medium bg-white border border-indigo-700 rounded-md group text-indigo-700 hover:bg-indigo-700 hover:text-white"
               >
                 Clear
