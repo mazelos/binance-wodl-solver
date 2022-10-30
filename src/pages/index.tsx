@@ -8,6 +8,10 @@ import BinanceLogo from '@assets/binance.png';
 import SizeSelector from '@components/sizeSelection';
 import WordsList from '@components/wordList';
 import Notification from '@components/notification';
+import Checkbox from '@components/CheckBox';
+import Button from '@components/Button';
+import TextInput from '@components/TextInput';
+import Divider from '@components/Divider';
 
 const fetchWords = async (
   count: number,
@@ -46,7 +50,6 @@ const Home: NextPage = () => {
   const [submitFired, setSubmitFired] = useState(false);
   const [notification, setNotification] = useState<string | null>(null);
   const [newWords, setNewWords] = useState('');
-  // const [words, setWords] = useState<string[]>([]);
 
   const {
     data: words,
@@ -129,71 +132,40 @@ const Home: NextPage = () => {
           </div>
 
           <form className="mt-8 space-y-6" onSubmit={handleSubmit} onReset={clearInputs}>
-            <div className="">
+            <div>
               <div className="mb-8">
                 <SizeSelector size={count} setSize={handleCountChange} />
               </div>
 
-              <div>
-                <label id="valid-letters" className="text-sm">
-                  Found letters ✔
-                </label>
-                <p></p>
-                <input
-                  type="text"
-                  id="valid-letters"
-                  name="valid-letters"
-                  placeholder="Enter found letters"
-                  value={validLetters}
-                  onChange={handleChange}
-                  className="relative block w-full px-3 py-2 mb-8 text-gray-900 placeholder-gray-500 border border-gray-300 rounded-md appearance-none focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
-                />
-              </div>
-
-              <div>
-                <label id="bad-letters" className="text-sm">
-                  Invalid letters ✖
-                </label>
-                <input
-                  type="text"
-                  id="bad-letters"
-                  name="bad-letters"
-                  placeholder="Enter invalid letters"
-                  value={badLetters}
-                  onChange={handleChange}
-                  className="relative block w-full px-3 py-2 mb-8 text-gray-900 placeholder-gray-500 border border-gray-300 rounded-md appearance-none focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
-                />
-              </div>
-            </div>
-
-            <div className="flex items-center justify-between">
-              <div className="flex items-center">
-                <input
-                  type="checkbox"
-                  id="convert-words"
-                  name="convert-words"
-                  onChange={handleChange}
-                  checked={convertWords}
-                  className="w-4 h-4 text-indigo-600 border-gray-300 rounded focus:ring-indigo-500"
-                />
-                <label htmlFor="remember-me" className="block ml-2 text-sm text-gray-900">
-                  Convert plurals to singular and vice versa?
-                </label>
-              </div>
-            </div>
-
-            <div className="flex">
-              <button
-                type="reset"
-                className="relative flex justify-center w-full px-4 py-2 mr-3 text-sm font-medium bg-white border border-indigo-700 rounded-md group text-indigo-700 hover:bg-indigo-700 hover:text-white"
+              <TextInput
+                onChange={handleChange}
+                value={validLetters}
+                name="valid-letters"
+                placeholder="Enter found letters"
+                style="mb-8"
               >
-                Clear
-              </button>
+                Found letters ✔
+              </TextInput>
 
-              <button
-                type="submit"
-                className="relative flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-indigo-600 border border-transparent rounded-md group hover:bg-indigo-700"
-              >{`Search ${count} character words`}</button>
+              <TextInput
+                onChange={handleChange}
+                value={badLetters}
+                name="bad-letters"
+                placeholder="Enter invalid letters"
+                style="mb-8"
+              >
+                Invalid letters ✖
+              </TextInput>
+            </div>
+
+            <Checkbox isChecked={convertWords} handleChange={handleChange} />
+
+            <div className="flex flex-col xs:flex-row">
+              <Button type="clear" action="reset" fullWidth>
+                Clear
+              </Button>
+              <Divider />
+              <Button action="submit" fullWidth>{`Search ${count} character words`}</Button>
             </div>
           </form>
         </div>
@@ -203,23 +175,19 @@ const Home: NextPage = () => {
             <h2 className="text-lg text-gray-800">No words found 🤷🏻</h2>
             <p className="text-sm text-gray-600">Submit new words below (separated by comma or space).</p>
 
-            <form className="flex items-end justify-between w-full space-y-6" onSubmit={handleSubmitNewWords}>
-              <input
-                type="text"
-                id="new-words"
+            <form
+              className="flex flex-col xs:flex-row items-center justify-between w-full mt-4"
+              onSubmit={handleSubmitNewWords}
+            >
+              <TextInput
                 name="new-words"
                 placeholder="Enter new words"
                 value={newWords}
                 onChange={handleChange}
-                className="flex-grow px-3 py-2 mr-2 text-gray-900 placeholder-gray-500 border border-gray-300 rounded-md appearance-none focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
+                style="xs:w-auto w-full"
               />
-
-              <button
-                type="submit"
-                className="relative flex justify-center px-4 py-2 text-sm font-medium text-white bg-indigo-600 border border-transparent rounded-md group hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
-              >
-                Submit ✔
-              </button>
+              <Divider />
+              <Button action="submit">Submit ✔</Button>
             </form>
           </div>
         ) : (
