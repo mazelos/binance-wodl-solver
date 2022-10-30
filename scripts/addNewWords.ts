@@ -1,9 +1,10 @@
 import { writeFileSync } from 'fs';
-import data from '../src/data/glossary.json';
+import data from '../data/glossary.json';
 
 type Glossary = Record<string, string[]>;
 const newData: Glossary = { ...data };
 
+// get all new words from the command line arguments (split them by space or comma)
 const words = process.argv
   .slice(2)
   .map(w => w.replace(',', ' ').trim().toLowerCase())

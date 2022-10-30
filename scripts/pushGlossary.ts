@@ -1,4 +1,4 @@
-import data from '../src/data/glossary.json';
+import data from '../data/glossary.json';
 import { addWords } from '../src/services/words.services';
 
 const main = async () => {
