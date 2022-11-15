@@ -16,3 +16,6 @@ or
 ```
 yarn start
 ```
+
+### Links
+[Running instance here](https://binance-wodl-solver-production.up.railway.app/) • [Binance Crypto Wodl](https://www.binance.com/en/activity/wodl/G797721298631790593)
